@@ -1,0 +1,23 @@
+<h2>{{title}}</h2>
+<ul>
+    <li *ngFor='let user of users'>{{user.id}} - {{user.userName}}</li>
+</ul>
+<table cellpadding="15" border="1">
+    <tr>
+        <td>
+            ID
+        </td>
+        <td>
+            User Name
+        </td>
+    </tr>
+    <tr *ngFor='let user of users'>
+        <td>
+            {{user.id}}
+        </td>
+        <td>
+            {{user.userName}}
+        </td>
+    </tr>
+</table>
+

@@ -456,3 +456,4 @@ appsettings.json
 client/.gitignore
 .gitignore
 ssl
+.mjk
